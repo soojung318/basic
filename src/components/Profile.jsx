@@ -1,9 +1,9 @@
-import Avartar from "./Avartar";
+import Avatar from "./Avatar";
 
 export default function Profile({image, avatar, name, title, isNew}) {
     return (
         <div className='profile'>
-            <Avartar image={image} isNew={isNew}/>
+            <Avatar image={image} isNew={isNew}/>
             <h1>{name}</h1>
             <p>{title}</p>
         </div>
