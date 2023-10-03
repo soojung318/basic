@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import AppProfile from "./AppProfile";
-import AppCounter from "./AppCounter";
-import AppProducts from "./AppProducts";
+import AppProfile from "./basic/AppProfile";
+import AppCounter from "./basic/AppCounter";
+import AppProducts from "./basic/AppProducts";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
